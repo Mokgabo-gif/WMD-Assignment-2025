@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f6;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffe4ec;
+    padding: 10px 20px;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #d63384;
+  }
+  
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .nav-bar li a {
+    text-decoration: none;
+    color: #d63384;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .nav-bar li a:hover {
+    color: #a61e4d;
+  }
+  
+  
+.banner {
+    background-image: url('images/baked goods.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px;
+    font-size: 2rem;
+    color: #d63384;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #ffe4ec;
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+  }
+  
+  footer a {
+    color: #d63384;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  footer a:hover {
+    color: #a61e4d;
+  }
+  
