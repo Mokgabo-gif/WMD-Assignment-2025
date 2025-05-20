@@ -1,9 +1,9 @@
-window.load = function() {
+window.onload = function() {
     let visitorName = localStorage.getItem("visitorName");
     if (!visitorName) {
         visitorName = prompt("Hi there! What's your name?");
         if (visitorName) {
-            localStorage,setItem("visitorName", visitorName);
+            localStorage.setItem("visitorName", visitorName);
         }
     }
 }
