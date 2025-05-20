@@ -7,8 +7,9 @@ window.onload = function() {
         }
     }
 }
+visitorName = localStorage.getItem("visitorName")
 if (visitorName) {
     alert("Welcome back to The Pink Whisk Bakery!" + visitorName + "!❤");
 } else {
     alert("Welcome to The Pink Whisk Bakery!❤");
-}
+};
