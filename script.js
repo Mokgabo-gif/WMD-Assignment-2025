@@ -10,5 +10,5 @@ window.load = function() {
 if (visitorName) {
     alert("Welcome back to The Pink Whisk Bakery!" + visitorName + "!❤");
 } else {
-    alert("Wlcome to The Pink Whisk Bakery!❤");
+    alert("Welcome to The Pink Whisk Bakery!❤");
 }
